@@ -1,0 +1,57 @@
+# Qt build
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+Makefile
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.log
+
+# Build folders
+build-*/
+build/
+debug/
+release/
+x64/
+x86/
+
+# QtCreator
+*.autosave
+*.creator.*
+*.creator
+
+# Backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Shell scripts with possible Unix line endings
+*.sh
+
+# CMake (si jamais tu ajoutes CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+
+# VSCode or CLion config (si utilisé)
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (au cas où tu partages)
+.DS_Store
